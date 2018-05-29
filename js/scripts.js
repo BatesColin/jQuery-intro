@@ -1,11 +1,20 @@
 $(document).ready(function() {
 
+
+
   $(".clickable").click(function() {
-    $(".walrus-showing").toggle();
-    $(".walrus-hidden").toggle();
+    $("#walrus-showing").slideToggle();
+    $("#walrus-hidden").slideToggle();
 });
 
-$("p").click(function() {
-    $("img").show();
+$(".titlefade").click(function() {
+    $("h1").fadeToggle();
   });
+
+  $(".imgToggle").click(function() {
+    $("#showstuff").slideToggle();
+    $("#hidestuff").slideToggle();
+  });
+
+
 });

@@ -11,19 +11,34 @@
 
     <div class="container">
       <h1>Peek-a-boo</h1>
+      <h6><span class="titlefade">Click to toggle title</span></h6>
 
     <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and
       deceit. Though it appears to be an innocent children's pastime, you may
       change your mind when you learn of its treacherous history.</p>
 
-      <div class="walrus-hidden">
-      <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+      <div id="walrus-hidden">
+        <p>Let's play peek-a-boo. <span class="clickable">Show</span></p>
+      </div>
+
+      <div id="walrus-showing">
+        <p>What a cute walrus! <span class="clickable">Hide</span></p>
+        <img src="imgs/walrus.jpg">
+      </div>
     </div>
 
-    <div class="walrus-showing">
-      <p>What a cute walrus! <span class="clickable">Click here</span>  to hide her again.</p>
-      <img src="imgs/walrus.jpg">
-    </div>
+    <div class="container">
+      <h2>Part 2, slide n fade</h2>
+
+      <div id="showstuff">
+        <p><span class="imgToggle">Show Images</span></p>
+      </div>
+
+      <div id="hidestuff">
+        <p><span class="imgToggle">Hide Images</span></p>
+        <img src="imgs/scruss.jpg">
+        <img src="imgs/junk.jpg">
+      </div>
     </div>
 
   </body>

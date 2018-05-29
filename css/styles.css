@@ -1,5 +1,13 @@
-img {
+#walrus-showing {
     display: none;
+}
+
+#showstuff {
+  display: none;
+}
+
+img {
+  width: 400px;
 }
 .clickable {
   cursor: pointer;
@@ -12,4 +20,13 @@ img {
 
 .walrus-showing {
   display: none;
+}
+
+.imgToggle {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.imgToggle:hover {
+  text-decoration: underline;
 }
