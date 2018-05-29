@@ -16,5 +16,9 @@ $(".titlefade").click(function() {
     $("#hidestuff").slideToggle();
   });
 
+  $(".finalToggle").click(function() {
+    $(".finalfade").fadeToggle();
+  });
+
 
 });
